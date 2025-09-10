@@ -1,3 +1,11 @@
 body{
     background-color: rgb(233, 95, 95);
 } 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
