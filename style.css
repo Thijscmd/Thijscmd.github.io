@@ -32,4 +32,6 @@ ul li a:hover {
   background-color: #000000;
 }
 
-
+li{
+  width: 250px;
+}
