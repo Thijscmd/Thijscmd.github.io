@@ -35,3 +35,10 @@ ul li a:hover {
 li{
   width: 250px;
 }
+.binair{
+  border:2px solid white;
+  border-radius:12px;
+  padding:14px 14px;
+  height:auto ;
+  width:auto ;
+}
