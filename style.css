@@ -71,3 +71,10 @@ li{
   width: 33%;
   text-align: center;
 }
+.plaatje2{
+  border:2px solid white ;
+  border-radius: 12px ;
+  padding: 14px 14px;
+  float: left;
+  margin: left 33%;
+}
