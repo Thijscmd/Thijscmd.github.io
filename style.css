@@ -78,3 +78,12 @@ li{
   float: left;
   width:32%;
   }
+
+  .plaatje3{
+     border:2px solid white ;
+  border-radius: 12px ;
+  padding: 14px 14px;
+  float: right;
+  width: 32%;
+  
+  }
