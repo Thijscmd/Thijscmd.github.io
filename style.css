@@ -70,7 +70,14 @@ li{
   width: 32%;
   text-align: center;
 }
-
+.plaajte3{
+border:2px solid white ;
+  border-radius: 12px ;
+  padding: 14px 14px;
+  float: middle;
+  width: 32%;
+  text-align: center;
+}
   .plaatje2{
   border:2px solid white ;
   border-radius: 12px ;
@@ -79,7 +86,7 @@ li{
   width:32%;
   }
 
-  .plaatje3{
+  
     
-  }
+  
 
