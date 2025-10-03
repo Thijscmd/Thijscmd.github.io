@@ -77,14 +77,13 @@ li{
   padding: 14px 14px;
   float: left;
   width:32%;
-  flex-box;
   }
 
   .plaatje3{
      border:2px solid white ;
   border-radius: 12px ;
   padding: 14px 14px;
-  float: right;
+  float: center;
   width: 32%;
-  
   }
+
