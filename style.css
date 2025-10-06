@@ -72,6 +72,8 @@ li{
 }
 
 .plaatje2{
+  position: relative; 
+  top: 10px;
   border:2px solid white;
   border-radius: 12px ;
   padding: 14px 14px ;
