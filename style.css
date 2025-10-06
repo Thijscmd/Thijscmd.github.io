@@ -76,7 +76,7 @@ li{
   border-radius: 12px ;
   padding: 14px 14px ;
   display: flex;
-  justify-content: center;
+  justify-content: right;
   width: 31%;
   text-align: center;
 }
