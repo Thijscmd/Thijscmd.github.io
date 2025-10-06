@@ -75,9 +75,8 @@ li{
   border:2px solid white;
   border-radius: 12px ;
   padding: 14px 14px ;
-  display: flex;
   float: right;
-  width: 31%;
+  width: 32%;
   text-align: center;
 }
 
