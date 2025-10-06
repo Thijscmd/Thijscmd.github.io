@@ -82,10 +82,11 @@ li{
 }
 
 .bite{
-  position: relative;
+position: relative;
 top: 10px;
 border: 2px solid white;
 border-radius:12px;
+float: ;
 width: 32%;
 text-align: center;
 }
