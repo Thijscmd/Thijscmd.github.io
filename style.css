@@ -137,8 +137,3 @@ display: flex;               /* Zet de boxen naast elkaar */
   top: 10px;
 } 
 
-.proberen{
-  background-color: #333;      /* Wordt iets lichter */
-  transform: scale(1.05);      /* Beetje vergroten */
-  transition: 0.2s;
-}
