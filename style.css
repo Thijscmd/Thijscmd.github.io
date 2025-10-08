@@ -93,4 +93,36 @@ width: 32%;
 text-align: center;
 }
 
+.Alles{
+display: flex;               /* Zet de boxen naast elkaar */
+  justify-content: center;     /* Zet de boxen in het midden van de pagina */
+  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  gap: 30px;                   /* Ruimte tussen de boxen */
+  margin-top: 40px;            /* Ruimte boven de boxen */
+}
+
+.info{
+ background-color: #111;      /* Donkere achtergrond */
+  color: white;                /* Witte tekst */
+  border: 2px solid white;     /* Witte rand */
+  border-radius: 15px;         /* Ronde hoeken */
+  width: 300px;                /* Even brede boxen */
+  height: 250px;               /* Even hoge boxen */
+  display: flex;               /* Om tekst te centreren */
+  flex-direction: column;      /* Tekst boven elkaar (titel en uitleg) */
+  justify-content: center;     /* Verticaal centreren */
+  align-items: center;         /* Horizontaal centreren */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
+  font-family: Arial;
+  font-size: 16px;
+}
+
+/* Effect bij hover (optioneel, maar leuk) */
+.box:hover {
+  background-color: #333;      /* Wordt iets lichter */
+  transform: scale(1.05);      /* Beetje vergroten */
+  transition: 0.2s;
+}
 
