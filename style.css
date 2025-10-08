@@ -135,7 +135,9 @@ display: flex;               /* Zet de boxen naast elkaar */
   width: 32%;
   text-align: center;
   top: 10px;
-  hover;
+} 
+
+.proberen{
   background-color: #333;      /* Wordt iets lichter */
   transform: scale(1.05);      /* Beetje vergroten */
   transition: 0.2s;
