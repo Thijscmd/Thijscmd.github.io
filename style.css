@@ -124,3 +124,13 @@ display: flex;               /* Zet de boxen naast elkaar */
   transition: 0.2s;
 }
 
+.proberen{
+  position: relative;
+  top: 10px;
+  border:2px solid white ;
+  border-radius: 12px ;
+  padding: 14px 14px;
+  float: left;
+  width: 32%;
+  text-align: center
+}
