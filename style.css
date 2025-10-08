@@ -128,7 +128,7 @@ display: flex;               /* Zet de boxen naast elkaar */
   border:2px solid white ;
   border-radius: 12px ;
   padding: 14px 14px;
-  float: left 50%;
+  float: 25%;
   width: 32%;
   text-align: center;
   top: 10px;
@@ -138,7 +138,7 @@ display: flex;               /* Zet de boxen naast elkaar */
   border:2px solid white ;
   border-radius: 12px ;
   padding: 14px 14px;
-  float: right 50%;
+  float:  75%;
   width: 32%;
   text-align: center;
   top: 10px;
