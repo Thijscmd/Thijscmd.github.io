@@ -124,21 +124,20 @@ display: flex;               /* Zet de boxen naast elkaar */
   transition: 0.2s;
 }
 
+.netjes{
+  display: flex;               /* Zet de boxen naast elkaar */
+  justify-content: center;     /* Zet de boxen in het midden van de pagina */
+  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  gap: 30px;                   /* Ruimte tussen de boxen */
+  margin-top: 40px;            /* Ruimte boven de boxen */
+}
+
+
 .proberen{
   border:2px solid white ;
   border-radius: 12px ;
   padding: 14px 14px;
   float: 25%;
-  width: 32%;
-  text-align: center;
-  top: 10px;
-}
-
-.proberen2{
-  border:2px solid white ;
-  border-radius: 12px ;
-  padding: 14px 14px;
-  float:  75%;
   width: 32%;
   text-align: center;
   top: 10px;
