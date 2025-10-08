@@ -131,4 +131,5 @@ display: flex;               /* Zet de boxen naast elkaar */
   float: left 10%;
   width: 32%;
   text-align: center
+  top: 10px;
 }
