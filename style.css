@@ -117,12 +117,6 @@ display: flex;               /* Zet de boxen naast elkaar */
   box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
 }
 
-/* Effect bij hover (optioneel, maar leuk) */
-.info:hover {
-  background-color: #333;      /* Wordt iets lichter */
-  transform: scale(1.05);      /* Beetje vergroten */
-  transition: 0.2s;
-}
 
 .netjes{
   display: flex;               /* Zet de boxen naast elkaar */
@@ -141,4 +135,10 @@ display: flex;               /* Zet de boxen naast elkaar */
   width: 32%;
   text-align: center;
   top: 10px;
+}
+/* Effect bij hover (optioneel, maar leuk) */
+.extraatje{
+background-color: #333;      /* Wordt iets lichter */
+  transform: scale(1.05);      /* Beetje vergroten */
+  transition: 0.2s;
 }
