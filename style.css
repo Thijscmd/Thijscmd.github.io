@@ -125,12 +125,10 @@ display: flex;               /* Zet de boxen naast elkaar */
 }
 
 .proberen{
-  position: absolute;
-  top: 10px;
   border:2px solid white ;
   border-radius: 12px ;
   padding: 14px 14px;
-  float: left;
+  float: left 10%;
   width: 32%;
   text-align: center
 }
