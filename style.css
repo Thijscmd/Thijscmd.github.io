@@ -150,6 +150,5 @@ display: flex;               /* Zet de boxen naast elkaar */
   margin-left: 33%;
   height: 25%;
   width: 75%;
-  display: flex;
   justify-content: center;
 }
