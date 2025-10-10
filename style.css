@@ -147,7 +147,7 @@ display: flex;               /* Zet de boxen naast elkaar */
   text-align: center;
   border-radius: 12px ;
   padding: 14px 14px;
-  float:center;
+  float:left 25%;
   display: flex;
   height: 25%;
   width: 75%;
