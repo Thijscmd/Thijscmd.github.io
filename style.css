@@ -150,5 +150,14 @@ border: 2px solid white;
 border-radius:12px;
 width:45%;
 text-align: center;
+}
 
+.strond2{
+  position:absolute;
+  top:10%;
+  left:50%;
+  border: 2px solid white;
+  border-radius: 12px;
+  width:30%;
+  text-align: center;
 }
