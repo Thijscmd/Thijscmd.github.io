@@ -149,6 +149,6 @@ display: flex;               /* Zet de boxen naast elkaar */
   padding: 14px 14px;
   float:center;
   height: 25%;
-  width: auto;
+  width: 75%;
   justify-content: center;
 }
