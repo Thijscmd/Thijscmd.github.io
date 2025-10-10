@@ -144,8 +144,8 @@ display: flex;               /* Zet de boxen naast elkaar */
 
 .strond{
 position: absolute;
-top: 90%;
-left:20%;
+top: 10%;
+left:50%;
 border: 2px solid white;
 border-radius:12px;
 width: 32%;
