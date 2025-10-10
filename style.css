@@ -232,3 +232,8 @@ top: 75%;
   margin-top: 477px;
   left: 9%;
 }
+
+.invoer:hover{
+  transform: scale(1.05);      /* Beetje vergroten */
+  transition: 0.2s;
+}
