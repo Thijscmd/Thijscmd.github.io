@@ -145,10 +145,10 @@ display: flex;               /* Zet de boxen naast elkaar */
 .strond{
 position: absolute;
 top: 10%;
-left:50%;
+left:10%;
 border: 2px solid white;
 border-radius:12px;
-width: 33%;
+width:45%;
 text-align: center;
 
 }
