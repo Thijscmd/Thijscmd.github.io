@@ -143,13 +143,12 @@ display: flex;               /* Zet de boxen naast elkaar */
 }
 
 .strond{
-  border:2px solid white ;
-  text-align: center;
-  border-radius: 12px ;
-  padding: 14px 14px;
-  float:left 25%;
-  display: flex;
-  height: 25%;
-  width: 75%;
-  justify-content: center;
+position: absolute;
+top: 90%;
+left:20%;
+border: 2px solid white;
+border-radius:12px;
+width: 32%;
+text-align: center;
+
 }
