@@ -237,3 +237,8 @@ top: 75%;
   transform: scale(1.05);      /* Beetje vergroten */
   transition: 0.2s;
 }
+
+.verwerking:hover{
+  transform: scale(1,05);
+  transition:0,2s;
+}
