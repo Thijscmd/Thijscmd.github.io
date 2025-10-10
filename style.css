@@ -185,6 +185,7 @@ text-align: center;
 
 }
 .invoer{
+  position: absolute;
   border:2px solid white;
   border-radius:12px;
   padding:14px 14px;
@@ -192,5 +193,6 @@ text-align: center;
   width:80%;
   text-align: center;
   margin-top: 30px;
-  right:27%;
+  left:27%;
+  
 }
