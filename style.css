@@ -174,3 +174,12 @@ width:45%;
 height:33%;
 text-align: center;
 }
+
+.uitleg{
+  border:2px solid white;
+  border-radius:12px;
+  padding:14px 14px;
+  height:auto ;
+  width:100%;
+
+}
