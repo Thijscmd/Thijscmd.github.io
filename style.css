@@ -141,3 +141,15 @@ display: flex;               /* Zet de boxen naast elkaar */
   transform: scale(1.05);      /* Beetje vergroten */
   transition: 0.2s;
 }
+
+.strond{
+  border:2px solid white ;
+  border-radius: 12px ;
+  padding: 14px 14px;
+  float: center;
+  margin-left: 33%;
+  height: 25%;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
