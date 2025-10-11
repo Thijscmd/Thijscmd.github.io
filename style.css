@@ -36,6 +36,8 @@ li{
   width: 300px;
 }
 .binair{
+  display: flex;
+  justify-content: center;
   border:2px solid white;
   border-radius:12px;
   padding:14px 14px;
