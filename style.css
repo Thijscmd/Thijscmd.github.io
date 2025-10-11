@@ -104,11 +104,7 @@ text-align: center;
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 300px;                /* Even brede boxen */
-  height: 250px;               /* Even hoge boxen */
-  display: flex;               /* Om tekst te centreren */     /* Tekst boven elkaar (titel en uitleg) */
-  flex-direction: column;
-  justify-content: center; 
-  align-items:flex-start ;    /* Verticaal centreren */  /* Horizontaal centreren */
+  height: 250px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
   padding: 20px;
   text-align: center;
   box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
