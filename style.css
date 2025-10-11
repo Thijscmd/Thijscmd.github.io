@@ -95,14 +95,11 @@ text-align: center;
 
 
 .info{
- background-color: #111;      /* Donkere achtergrond */
-  color: white;                /* Witte tekst */
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 300px;                /* Even brede boxen */
   height: 250px;               /* Even hoge boxen */
-  display: flex;               /* Om tekst te centreren */
-  flex-direction: row;      /* Tekst boven elkaar (titel en uitleg) */
+  display: flex;               /* Om tekst te centreren */     /* Tekst boven elkaar (titel en uitleg) */
   justify-content: center; 
   align-items:flex-start ;    /* Verticaal centreren */  /* Horizontaal centreren */
   padding: 20px;
