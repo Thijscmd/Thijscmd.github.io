@@ -37,12 +37,14 @@ li{
 }
 .binair{
   display: flex;
+  float: center;
   justify-content: center;
   border:2px solid white;
   border-radius:12px;
   padding:14px 14px;
   height:auto ;
   width:80% ;
+  text-align: center;
 }
 
 .Thijs{
