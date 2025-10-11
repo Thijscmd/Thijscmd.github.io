@@ -66,35 +66,39 @@ li{
   display: flex;
   text-align: center;
 }
-.plaatje1{
-  position: absolute;
-  top: 200px;
-  border:2px solid white ;
-  border-radius: 12px ;
-  padding: 14px 14px;
-  float: left;
-  width: 32%;
-  text-align: center;
+.container11{
+  display: flex;               /* Zet de boxen naast elkaar */
+  justify-content: center;     /* Zet de boxen in het midden van de pagina */
+  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  gap: 20px;                   /* Ruimte tussen de boxen */   
 }
-
-.plaatje2{
-  position: absolute; 
-  top: 200px;
-  border:2px solid white;
-  border-radius: 12px ;
-  float: right;
-  width: 32%;
+.box1{
+  border: 2px solid white;     /* Witte rand */
+  border-radius: 15px;         /* Ronde hoeken */
+  width: 300px;                /* Even brede boxen */
+  height: 250px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  padding: 20px;
   text-align: center;
+  box-sizing: border-box;   
+  margin-top: 10px;   /* Padding telt niet extra op bij breedte */
 }
-
-.bite{
-position: absolute;
-top: 200px;
-float: center;
-border: 2px solid white;
-border-radius:12px;
-width: 32%;
-text-align: center;
+.bo1x:hover{
+  transform: scale(1.05);
+  transition: 2,0s;
+}
+.boxmidden1{
+  border: 2px solid white;     /* Witte rand */
+  border-radius: 15px;         /* Ronde hoeken */
+  width: 310px;                /* Even brede boxen */
+  height: 260px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;   
+  gap: 20px;
+}
+.boxmidden1{
+  transform: scale(1.05);
+  transition: 0,2s;
 }
 
 .container{
