@@ -36,15 +36,12 @@ li{
   width: 300px;
 }
 .binair{
-  display: flex;
   float: center;
-  justify-content: center;
   border:2px solid white;
   border-radius:12px;
   padding:14px 14px;
-  height:35% ;
-  width:80% ;
-  text-align: center;
+  height:auto ;
+  width:90% ;
 }
 
 .Thijs{
@@ -88,9 +85,9 @@ li{
 }
 
 .bite{
-position: absolute;
-top: 55%;
-left:35%;
+position: relative;
+top: 10px;
+float: right;
 border: 2px solid white;
 border-radius:12px;
 width: 32%;
