@@ -98,7 +98,7 @@ text-align: center;
   justify-content: center;     /* Zet de boxen in het midden van de pagina */
   align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
   gap: 20px;                   /* Ruimte tussen de boxen */
-  margin-top: 40px;         
+  margin-top: 20px;         
 }
 .info{
   border: 2px solid white;     /* Witte rand */
