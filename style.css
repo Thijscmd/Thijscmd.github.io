@@ -110,6 +110,11 @@ text-align: center;
   box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
 }
 
+.info:hover{
+  transform: scale(1.05);
+  transition: 0,2s;
+}
+
 
 .netjes{
   display: flex;               /* Zet de boxen naast elkaar */
