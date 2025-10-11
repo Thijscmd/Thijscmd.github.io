@@ -107,7 +107,7 @@ text-align: center;
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
-  margin-top: 20px;   /* Padding telt niet extra op bij breedte */
+  margin-top: 10px;   /* Padding telt niet extra op bij breedte */
 }
 .boxmidden{
   border: 2px solid white;     /* Witte rand */
