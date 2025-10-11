@@ -93,14 +93,14 @@ width: 32%;
 text-align: center;
 }
 
-.info2{
+.container{
   display: flex;               /* Zet de boxen naast elkaar */
   justify-content: center;     /* Zet de boxen in het midden van de pagina */
   align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
   gap: 20px;                   /* Ruimte tussen de boxen */
   margin-top: 20px;         
 }
-.info{
+.box{
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 300px;                /* Even brede boxen */
@@ -109,7 +109,7 @@ text-align: center;
   text-align: center;
   box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
 }
-.info3{
+.boxmidden{
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 310px;                /* Even brede boxen */
