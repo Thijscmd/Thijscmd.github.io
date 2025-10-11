@@ -100,6 +100,7 @@ text-align: center;
   width: 300px;                /* Even brede boxen */
   height: 250px;               /* Even hoge boxen */
   display: flex;               /* Om tekst te centreren */     /* Tekst boven elkaar (titel en uitleg) */
+  flex-direction: column;
   justify-content: center; 
   align-items:flex-start ;    /* Verticaal centreren */  /* Horizontaal centreren */
   padding: 20px;
