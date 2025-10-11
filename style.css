@@ -109,6 +109,15 @@ text-align: center;
   text-align: center;
   box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
 }
+.info3{
+  border: 2px solid white;     /* Witte rand */
+  border-radius: 15px;         /* Ronde hoeken */
+  width: 310px;                /* Even brede boxen */
+  height: 260px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;   
+}
 
 .info:hover{
   transform: scale(1.05);
