@@ -67,8 +67,8 @@ li{
   text-align: center;
 }
 .plaatje1{
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 200px;
   border:2px solid white ;
   border-radius: 12px ;
   padding: 14px 14px;
@@ -78,8 +78,8 @@ li{
 }
 
 .plaatje2{
-  position: relative; 
-  top: 10px;
+  position: absolute; 
+  top: 200px;
   border:2px solid white;
   border-radius: 12px ;
   float: right;
@@ -88,9 +88,9 @@ li{
 }
 
 .bite{
-position: relative;
-top: 10px;
-float: right;
+position: absolute;
+top: 200px;
+float: center;
 border: 2px solid white;
 border-radius:12px;
 width: 32%;
