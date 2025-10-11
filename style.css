@@ -152,7 +152,10 @@ width:45%;
 height: 34%;
 text-align: center;
 }
-
+.strond:hover{
+  transform: scale(1.05);
+  transition:0,2s ;
+}
 .strond2{
   position:absolute;
   top:10%;
@@ -173,6 +176,10 @@ border-radius:12px;
 width:45%;
 height:33%;
 text-align: center;
+}
+.strond3:hover{
+  transform: scale(1.05);
+  transition:0,2s ;
 }
 
 .uitleg{
