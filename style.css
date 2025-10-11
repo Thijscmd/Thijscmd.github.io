@@ -109,6 +109,10 @@ text-align: center;
   box-sizing: border-box;   
   margin-top: 10px;   /* Padding telt niet extra op bij breedte */
 }
+.box:hover{
+  transform: scale(1.05);
+  transition: 2,0s;
+}
 .boxmidden{
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
@@ -119,7 +123,10 @@ text-align: center;
   box-sizing: border-box;   
   gap: 20px;
 }
-
+.boxmidden{
+  transform: scale(1.05);
+  transition: 0,2s;
+}
 .info:hover{
   transform: scale(1.05);
   transition: 0,2s;
