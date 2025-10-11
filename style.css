@@ -36,12 +36,15 @@ li{
   width: 300px;
 }
 .binair{
+  position: absolute;
   border:2px solid white;
   border-radius:12px;
   padding:14px 14px;
   height:auto ;
   width:80%;
   text-align: center;
+  left: 10%;
+
 }
 
 .Thijs{
