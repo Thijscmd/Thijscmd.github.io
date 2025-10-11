@@ -106,6 +106,7 @@ text-align: center;
   width: 300px;                /* Even brede boxen */
   height: 250px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
   padding: 20px;
+  display: flex;
   text-align: center;
   box-sizing: border-box;      /* Padding telt niet extra op bij breedte */
 }
