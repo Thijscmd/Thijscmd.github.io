@@ -129,6 +129,10 @@ text-align: center;
   text-align: center;
   top: 10px;
 } 
+.proberen:hover{
+  transform: scale(1.05);
+  transition: 0,2s;
+}
 
 
 .strond{
