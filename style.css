@@ -39,7 +39,6 @@ li{
   display: flex;               /* Zet de boxen naast elkaar */
   justify-content: center;     /* Zet de boxen in het midden van de pagina */
   align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
-  margin-top: 210px;
   gap: 20px;     
 }         
 .box2{
@@ -51,6 +50,23 @@ li{
   text-align: center;
   box-sizing: border-box;   
   margin-top: 10px;   
+}
+.container3{
+  display: flex;               /* Zet de boxen naast elkaar */
+  justify-content: center;     /* Zet de boxen in het midden van de pagina */
+  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  margin-top: 210px;
+  gap: 20px;     
+}         
+.box3{
+  border: 2px solid white;     /* Witte rand */
+  border-radius: 15px;         /* Ronde hoeken */
+  width: 300px;                /* Even brede boxen */
+  height: 265px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;   
+  margin-top: 10px; 
 }
 .boxmidden2{
   border: 2px solid white;     /* Witte rand */
