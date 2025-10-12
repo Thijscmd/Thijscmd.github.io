@@ -77,7 +77,7 @@ li{
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 300px;                /* Even brede boxen */
-  height: 250px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  height: 265px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
@@ -91,7 +91,7 @@ li{
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 310px;                /* Even brede boxen */
-  height: 260px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  height: 275px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
