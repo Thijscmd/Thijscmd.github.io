@@ -81,7 +81,6 @@ li{
   display: flex;               /* Zet de boxen naast elkaar */
   justify-content: center;     /* Zet de boxen in het midden van de pagina */
   align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
-  margin-top: 210px;
   gap: 20px;                   /* Ruimte tussen de boxen */   
 }
 .box1{
