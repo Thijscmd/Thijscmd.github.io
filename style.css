@@ -79,6 +79,9 @@ li{
   gap: 20px;
 }
 .vp{
+  display: flex;               /* Zet de boxen naast elkaar */
+  justify-content: center;     /* Zet de boxen in het midden van de pagina */
+  align-items: flex-start;  
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 500px;                /* Even brede boxen */
