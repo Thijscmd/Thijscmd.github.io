@@ -84,7 +84,7 @@ li{
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 500px;                /* Even brede boxen */
-  height: 275px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  height: 150px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
