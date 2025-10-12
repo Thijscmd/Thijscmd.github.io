@@ -36,16 +36,16 @@ li{
   width: 300px;
 }
 .container2{
-  display: flex;               /* Zet de boxen naast elkaar */
-  justify-content: center;     /* Zet de boxen in het midden van de pagina */
-  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  display: flex;               
+  justify-content: center;  
+  align-items: flex-start;     
   gap: 20px;     
 }         
 .box2{
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 300px;                /* Even brede boxen */
-  height: 265px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;     
+  border-radius: 15px;         
+  width: 300px;                
+  height: 265px; 
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
@@ -56,17 +56,17 @@ li{
   transition: 0,2s;
 }
 .container3{
-  display: flex;               /* Zet de boxen naast elkaar */
-  justify-content: center;     /* Zet de boxen in het midden van de pagina */
-  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  display: flex;               
+  justify-content: center;     
+  align-items: flex-start;     
   margin-top: 10px;
   gap: 20px;     
 }         
 .box3{
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 300px;                /* Even brede boxen */
-  height: 265px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;     
+  border-radius: 15px;         
+  width: 300px;                
+  height: 265px;               
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
@@ -77,10 +77,10 @@ li{
   transition: 0,2s;
 }
 .boxmidden2{
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 315px;                /* Even brede boxen */
-  height: 275px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;     
+  border-radius: 15px;         
+  width: 315px;                
+  height: 275px;               
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
@@ -93,10 +93,10 @@ li{
 .vp{
   position:absolute;
   left: 30%;
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 500px;                /* Even brede boxen */
-  height: 150px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;     
+  border-radius: 15px;         
+  width: 500px;                
+  height: 150px;               
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
@@ -123,31 +123,31 @@ li{
 }
 
 .container11{
-  display: flex;               /* Zet de boxen naast elkaar */
-  justify-content: center;     /* Zet de boxen in het midden van de pagina */
-  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
+  display: flex;               
+  justify-content: center;
+  align-items: flex-start;     
   gap: 20px;     
-  margin-top: 200px;              /* Ruimte tussen de boxen */   
+  margin-top: 200px;              
 }
 .box1{
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 300px;                /* Even brede boxen */
-  height: 265px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;     
+  border-radius: 15px;         
+  width: 300px;                
+  height: 265px;               
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
-  margin-top: 10px;   /* Padding telt niet extra op bij breedte */
+  margin-top: 10px;
 }
 .box1:hover{
   transform: scale(1.05);
   transition: 2,0s;
 }
 .boxmidden1{
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 315px;                /* Even brede boxen */
-  height: 275px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;
+  border-radius: 15px;         
+  width: 315px;                
+  height: 275px;               
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
@@ -159,30 +159,30 @@ li{
 }
 
 .container{
-  display: flex;               /* Zet de boxen naast elkaar */
-  justify-content: center;     /* Zet de boxen in het midden van de pagina */
-  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
-  gap: 20px;                   /* Ruimte tussen de boxen */   
+  display: flex;               
+  justify-content: center;     
+  align-items: flex-start;     
+  gap: 20px;                     
 }
 .box{
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 300px;                /* Even brede boxen */
-  height: 250px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;     
+  border-radius: 15px;         
+  width: 300px;
+  height: 250px;               
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
-  margin-top: 10px;   /* Padding telt niet extra op bij breedte */
+  margin-top: 10px;   
 }
 .box:hover{
   transform: scale(1.05);
   transition: 2,0s;
 }
 .boxmidden{
-  border: 2px solid white;     /* Witte rand */
-  border-radius: 15px;         /* Ronde hoeken */
-  width: 310px;                /* Even brede boxen */
-  height: 260px;               /* Even hoge boxen */   /* Verticaal centreren */  /* Horizontaal centreren */
+  border: 2px solid white;     
+  border-radius: 15px;         
+  width: 310px;                
+  height: 260px;               
   padding: 20px;
   text-align: center;
   box-sizing: border-box;   
@@ -199,11 +199,11 @@ li{
 
 
 .netjes{
-  display: flex;               /* Zet de boxen naast elkaar */
-  justify-content: center;     /* Zet de boxen in het midden van de pagina */
-  align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
-  gap: 30px;                   /* Ruimte tussen de boxen */
-  margin-top: 40px;            /* Ruimte boven de boxen */
+  display: flex;               
+  justify-content: center;     
+  align-items: flex-start;     
+  gap: 30px;
+  margin-top: 40px;
 }
 
 
