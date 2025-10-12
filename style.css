@@ -111,7 +111,7 @@ li{
   justify-content: center;     /* Zet de boxen in het midden van de pagina */
   align-items: flex-start;     /* Zorg dat ze bovenaan gelijk staan */
   gap: 20px;     
-  margin-top: 10px;              /* Ruimte tussen de boxen */   
+  margin-top: 200px;              /* Ruimte tussen de boxen */   
 }
 .box1{
   border: 2px solid white;     /* Witte rand */
