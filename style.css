@@ -44,9 +44,11 @@ li{
   width:80%;
   text-align: center;
   left: 10%;
-
 }
-
+.binair:hover{
+  transform: scale(1.05);
+  transition: 0,2s;
+}
 .Thijs{
   border:2px solid white ;
   border-radius: 12px ;
