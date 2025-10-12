@@ -72,7 +72,7 @@ li{
   box-sizing: border-box;   
   margin-top: 10px; 
 }
-.box3{
+.box3:hover{
   transform: scale(1.05);
   transition: 0,2s;
 }
@@ -86,7 +86,7 @@ li{
   box-sizing: border-box;   
   gap: 20px;
 }
-.boxmidden2{
+.boxmidden2:hover{
   transform: scale(1.05);
   transition: 0,2s;
 }
