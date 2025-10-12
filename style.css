@@ -80,7 +80,7 @@ li{
 }
 .vp{
   position:absolute;
-  left: 33%;
+  left: 30%;
   border: 2px solid white;     /* Witte rand */
   border-radius: 15px;         /* Ronde hoeken */
   width: 500px;                /* Even brede boxen */
