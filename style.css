@@ -92,7 +92,7 @@ li{
 }
 .vp{
   position:absolute;/*plaats op vaste plek*/
-  left: 35%;/*afstand vanaf linkerkant*/
+  left: 37%;/*afstand vanaf linkerkant*/
   border: 2px solid white;/*witte rand*/     
   border-radius: 15px;/*hoeken afronden*/         
   width: 500px;/*breedte van box*/                
