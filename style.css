@@ -1,340 +1,340 @@
-body{
-    background-color: rgb(0, 0, 0);
+body{ 
+    background-color: rgb(0, 0, 0); /*achtergrond kleur*/
 } 
 
 h1{
-    text-align: center;
+    text-align: center; /*zet alle koppen van h1 in het midden*/
 }
 
 
 ul li {
-  float: left;
+  float: left; /*zet elk menu item naast elkaar*/
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000000;
+  list-style-type: none; /*verwijdert de standaard bolletjes*/
+  margin: 0;/*verwijdert de marge*/
+  padding: 0;/*verwijdert de padding*/
+  overflow: hidden; /*zorgt ervoor dat de inhoud in de container blijft*/
+  background-color: #000000;/*achtegrond kleur van navigatieblak*/
 }
 
 
 ul li a {
-  display: block;
-  color: rgb(254, 252, 252);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block; /*maakt de link een klikbaar blok*/
+  color: rgb(254, 252, 252);/*kleur van de tekst*/
+  text-align: center;/*tekst wordt gecentreerd*/
+  padding: 14px 16px;/*ruimte binnen vlak*/
+  text-decoration: none;/*verwijdert de onderstrepen van link*/
 }
 
 ul li a:hover {
-  background-color: #020000;
+  background-color: #020000; /* verandert de achtergrond bij hover*/
 }
 
 li{
-  width: 300px;
+  width: 300px;/* bepaalt breedte van menu item*/
 }
-.container2{
-  display: flex;               
-  justify-content: center;  
-  align-items: flex-start;     
-  gap: 20px;     
+.container2{ /*om boxen naast elkaar te zetten*/
+  display: flex; /*zet de inhoud naast elkaar*/      
+  justify-content: center;  /*centreert horizontaal*/
+  align-items: flex-start;  /*lijnt items boven aan uit*/
+  gap: 20px;     /*ruimte tussen blokken*/
 }         
-.box2{
-  border: 2px solid white;     
-  border-radius: 15px;         
-  width: 300px;                
-  height: 265px; 
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  margin-top: 10px;   
+.box2{/*box stylen*/
+  border: 2px solid white;   /*witte rand*/
+  border-radius: 15px;         /*hoeken afronden*/
+  width: 300px;                /*breedte van box*/
+  height: 265px; /*hoogte van box*/
+  padding: 20px; /*binnenruimte*/
+  text-align: center; /*tekst in midden*/
+  box-sizing: border-box;   /*telt padding bij totale grootte op*/
+  margin-top: 10px;   /*ruimte boven vlak*/
 }
-.box2:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+.box2:hover{/*zorgt ervoor dat box kan vervormen*/
+  transform: scale(1.05); /*vergroot bij hover*/
+  transition: 0,2s;/* duur van vergroting*/
 }
 .container3{
-  display: flex;               
-  justify-content: center;     
-  align-items: flex-start;     
-  margin-top: 10px;
-  gap: 20px;     
+  display: flex;             /*zet de inhoud naast elkaar*/        
+  justify-content: center;   /*centreert horizontaal*/  
+  align-items: flex-start;     /*lijnt items boven aan uit*/
+  margin-top: 10px;/*ruimte boven vlak*/
+  gap: 20px;      /*ruimte tussen blokken*/
 }         
 .box3{
-  border: 2px solid white;     
-  border-radius: 15px;         
-  width: 300px;                
-  height: 265px;               
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  margin-top: 10px; 
+  border: 2px solid white;/*witte rand*/     
+  border-radius: 15px;/*hoeken afronden*/         
+  width: 300px;    /*breedte van box*/            
+  height: 265px;  /*hoogte van box*/             
+  padding: 20px;/*binnenruimte*/
+  text-align: center;/*tekst in midden*/
+  box-sizing: border-box;/*telt padding bij totale grootte op*/   
+  margin-top: 10px;/*ruimte boven vlak*/ 
 }
 .box3:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 .boxmidden2{
-  border: 2px solid white;     
-  border-radius: 15px;         
-  width: 315px;                
-  height: 275px;               
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  gap: 20px;
+  border: 2px solid white;/*witte rand*/     
+  border-radius: 15px;/*hoeken afronden*/         
+  width: 315px; /*breedte van box*/               
+  height: 275px;/*hoogte van box*/                
+  padding: 20px;/*binnenruimte*/
+  text-align: center;/*tekst in midden*/
+  box-sizing: border-box;/*telt padding bij totale grootte op*/
+  gap: 20px; /*ruimte tussen blokken*/
 }
 .boxmidden2:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 .vp{
   position:absolute;
-  left: 30%;
-  border: 2px solid white;     
-  border-radius: 15px;         
-  width: 500px;                
-  height: 150px;               
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  gap: 20px;
-  margin-top:10px;
+  left: 50%; /*;/*afstand vanaf linkerkant*/
+  border: 2px solid white;/*witte rand*/     
+  border-radius: 15px;/*hoeken afronden*/         
+  width: 500px;/*breedte van box*/                
+  height: 150px;/*hoogte van box*/                
+  padding: 20px;/*binnenruimte*/
+  text-align: center;/*tekst in midden*/
+  box-sizing: border-box;/*telt padding bij totale grootte op*/   
+  gap: 20px; /*ruimte tussen blokken*/
+  margin-top:10px;/*ruimte boven vlak*/
 }
 .vp:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 .binair{
-  position: absolute;
-  border:2px solid white;
-  border-radius:12px;
-  padding:14px 14px;
-  height:auto ;
-  width:80%;
-  text-align: center;
-  left: 10%;
+  position: absolute;/*plaats op vaste plek*/
+  border:2px solid white;/*witte rand*/
+  border-radius:12px;/*hoeken afronden*/
+  padding:14px 14px;/*binnenruimte*/
+  height:auto ;/*hoogte van box*/ 
+  width:80%;/*breedte van box*/
+  text-align: center;/*tekst in midden*/
+  left: 10%;/*afstand vanaf linkerkant*/
 }
 .binair:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 
 .container11{
-  display: flex;               
-  justify-content: center;
-  align-items: flex-start;     
-  gap: 20px;     
-  margin-top: 200px;              
+  display: flex;     /*zet de inhoud naast elkaar*/                
+  justify-content: center;/*centreert horizontaal*/
+  align-items: flex-start;     /*lijnt items boven aan uit*/
+  gap: 20px; /*ruimte tussen blokken*/     
+  margin-top: 200px;/*ruimte boven vlak*/              
 }
 .box1{
-  border: 2px solid white;     
-  border-radius: 15px;         
-  width: 300px;                
-  height: 265px;               
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  margin-top: 10px;
+  border: 2px solid white;/*witte rand*/     
+  border-radius: 15px;/*hoeken afronden*/         
+  width: 300px; /*breedte van box*/               
+  height: 265px;/*hoogte van box*/                
+  padding: 20px;/*binnenruimte*/
+  text-align: center;/*tekst in midden*/
+  box-sizing: border-box;/*telt padding bij totale grootte op*/   
+  margin-top: 10px;/*ruimte boven vlak*/
 }
 .box1:hover{
-  transform: scale(1.05);
-  transition: 2,0s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 2,0s;/* duur van vergroting*/
 }
 .boxmidden1{
-  border: 2px solid white;
-  border-radius: 15px;         
-  width: 315px;                
-  height: 275px;               
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  gap: 20px;
+  border: 2px solid white;/*witte rand*/
+  border-radius: 15px;/*hoeken afronden*/         
+  width: 315px;/*breedte van box*/                
+  height: 275px;/*hoogte van box*/                
+  padding: 20px;/*binnenruimte*/
+  text-align: center;/*tekst in midden*/
+  box-sizing: border-box;/*telt padding bij totale grootte op*/   
+  gap: 20px; /*ruimte tussen blokken*/
 }
 .boxmidden1:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 
 .container{
-  display: flex;               
-  justify-content: center;     
-  align-items: flex-start;     
-  gap: 20px;                     
+  display: flex;               /*zet de inhoud naast elkaar*/      
+  justify-content: center;     /*centreert horizontaal*/
+  align-items: flex-start;     /*lijnt items boven aan uit*/
+  gap: 20px; /*ruimte tussen blokken*/                     
 }
 .box{
-  border: 2px solid white;     
-  border-radius: 15px;         
-  width: 300px;
-  height: 250px;               
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  margin-top: 10px;   
+  border: 2px solid white;/*witte rand*/     
+  border-radius: 15px;/*hoeken afronden*/         
+  width: 300px;/*breedte van box*/
+  height: 250px;/*hoogte van box*/                    
+  padding: 20px;/*binnenruimte*/
+  text-align: center;/*tekst in midden*/
+  box-sizing: border-box; /*telt padding bij totale grootte op*/  
+  margin-top: 10px;/*ruimte boven vlak*/   
 }
 .box:hover{
-  transform: scale(1.05);
-  transition: 2,0s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 2,0s;/* duur van vergroting*/
 }
 .boxmidden{
-  border: 2px solid white;     
-  border-radius: 15px;         
-  width: 310px;                
-  height: 260px;               
-  padding: 20px;
-  text-align: center;
-  box-sizing: border-box;   
-  gap: 20px;
+  border: 2px solid white;/*witte rand*/     
+  border-radius: 15px;/*hoeken afronden*/         
+  width: 310px;/*breedte van box*/                
+  height: 260px;/*hoogte van box*/                    
+  padding: 20px;/*binnenruimte*/
+  text-align: center;/*tekst in midden*/
+  box-sizing: border-box;/*telt padding bij totale grootte op*/   
+  gap: 20px; /*ruimte tussen blokken*/
 }
 .boxmidden{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 .info:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 
 
 .netjes{
-  display: flex;               
-  justify-content: center;     
-  align-items: flex-start;     
-  gap: 30px;
-  margin-top: 40px;
+  display: flex;     /*zet de inhoud naast elkaar*/                
+  justify-content: center;/*centreert horizontaal*/     
+  align-items: flex-start; /*lijnt items boven aan uit*/    
+  gap: 30px; /*ruimte tussen blokken*/
+  margin-top: 40px;/*ruimte boven vlak*/
 }
 
 
 .proberen{
-  border:2px solid white ;
-  border-radius: 12px ;
-  padding: 14px 14px;
-  float: 25%;
-  width: 32%;
-  text-align: center;
-  top: 10px;
+  border:2px solid white ;/*witte rand*/
+  border-radius: 12px ;/*hoeken afronden*/
+  padding: 14px 14px;/*binnenruimte*/
+  float: 25%;/*tekst in midden*/
+  width: 32%;/*breedte van box*/
+  text-align: center;/*tekst in midden*/
+  top: 10px;/*afstand vanaf bovenkant*/
 } 
 .proberen:hover{
-  transform: scale(1.05);
-  transition: 0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition: 0,2s;/* duur van vergroting*/
 }
 
 
 .strond{
-position: absolute;
-top: 48%;
-left:3%;
-border: 2px solid white;
-border-radius:12px;
-width:45%;
-height: 34%;
-text-align: center;
+position: absolute;/*plaats op vaste plek*/
+top: 48%;/*afstand vanaf bovenkant*/
+left:3%;/*afstand vanaf linkerkant*/
+border: 2px solid white;/*witte rand*/
+border-radius:12px;/*hoeken afronden*/
+width:45%;/*breedte van box*/
+height: 34%;/*hoogte van box*/     
+text-align: center;/*tekst in midden*/
 }
 .strond:hover{
-  transform: scale(1.05);
-  transition:0,2s ;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition:0,2s ;/* duur van vergroting*/
 }
 .strond2{
-  position:absolute;
-  top:10%;
-  left:27%;
-  border: 2px solid white;
-  border-radius: 12px;
-  width:45%;
-  height: 33%;
-  text-align: center;
+  position:absolute;/*plaats op vaste plek*/
+  top:10%;/*afstand vanaf bovenkant*/
+  left:27%;/*afstand vanaf linkerkant*/
+  border: 2px solid white;/*witte rand*/
+  border-radius: 12px;/*hoeken afronden*/
+  width:45%;/*breedte van box*/
+  height: 33%;/*hoogte van box*/     
+  text-align: center;/*tekst in midden*/
 }
 .strond2:hover{
-  transform: scale(1.05);
-  transition:0,2s ;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition:0,2s ;/* duur van vergroting*/
 }
 
 .strond3{
-  position: absolute;
-top: 48%;
+  position: absolute;/*plaats op vaste plek*/
+top: 48%;/*afstand vanaf bovenkant*/
 right:3%;
-border: 2px solid white;
-border-radius:12px;
-width:45%;
-height:33%;
-text-align: center;
+border: 2px solid white;/*witte rand*/
+border-radius:12px;/*hoeken afronden*/
+width:45%;/*breedte van box*/
+height:33%;/*hoogte van box*/     
+text-align: center;/*tekst in midden*/
 }
 .strond3:hover{
-  transform: scale(1.05);
-  transition:0,2s ;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition:0,2s ;/* duur van vergroting*/
 }
 
 .uitleg{
-  border:2px solid white;
-  border-radius:12px;
-  padding:14px 14px;
-  height:auto ;
-  width:auto;
-  text-align: center;
+  border:2px solid white;/*witte rand*/
+  border-radius:12px;/*hoeken afronden*/
+  padding:14px 14px;/*binnenruimte*/
+  height:auto ;/*hoogte van box*/     
+  width:auto;/*breedte van box*/
+  text-align: center;/*tekst in midden*/
 
 }
 .invoer{
-  position: absolute;
-  border:2px solid white;
-  border-radius:12px;
-  padding:14px 14px;
-  height:auto ;
-  width:80%;
-  text-align: center;
-  margin-top: 30px;
-  left: 9%;
+  position: absolute;/*plaats op vaste plek*/
+  border:2px solid white;/*witte rand*/
+  border-radius:12px;/*hoeken afronden*/
+  padding:14px 14px;/*binnenruimte*/
+  height:auto ;/*hoogte van box*/     
+  width:80%;/*breedte van box*/
+  text-align: center;/*tekst in midden*/
+  margin-top: 30px;/*ruimte boven vlak*/
+  left: 9%;/*afstand vanaf linkerkant*/
 
 }
 
 .pijl{
-position: absolute;
-left: 48%;
-top: 75%;
+position: absolute;/*plaats op vaste plek*/
+left: 48%;/*afstand vanaf linkerkant*/
+top: 75%;/*afstand vanaf bovenkant*/
 }
 
 .verwerking{
-  position: absolute;
-  border:2px solid white;
-  border-radius:12px;
-  padding:14px 14px;
-  height:auto ;
-  width:80%;
-  text-align: center;
-  margin-top: 250px;
-  left: 9%;
+  position: absolute;/*plaats op vaste plek*/
+  border:2px solid white;/*witte rand*/
+  border-radius:12px;/*hoeken afronden*/
+  padding:14px 14px;/*binnenruimte*/
+  height:auto ;/*hoogte van box*/     
+  width:80%;/*breedte van box*/
+  text-align: center;/*tekst in midden*/
+  margin-top: 250px;/*ruimte boven vlak*/
+  left: 9%;/*afstand vanaf linkerkant*/
 }
 
 .pijl2{
-  position: absolute;
-  left: 48%;
-  top:630px;
+  position: absolute;/*plaats op vaste plek*/
+  left: 48%;/*afstand vanaf linkerkant*/
+  top:630px;/*afstand vanaf bovenkant*/
 }
 
 .uitvoer{
-  position: absolute;
-  border:2px solid white;
-  border-radius:12px;
-  padding:14px 14px;
-  height:auto ;
-  width:80%;
-  text-align: center;
-  margin-top: 477px;
-  left: 9%;
+  position: absolute;/*plaats op vaste plek*/
+  border:2px solid white;/*witte rand*/
+  border-radius:12px;/*hoeken afronden*/
+  padding:14px 14px;/*binnenruimte*/
+  height:auto ;/*hoogte van box*/     
+  width:80%;/*breedte van box*/
+  text-align: center;/*tekst in midden*/
+  margin-top: 477px;/*ruimte boven vlak*/
+  left: 9%;/*afstand vanaf linkerkant*/
 }
 
 .invoer:hover{
   transform: scale(1.05);      /* Beetje vergroten */
-  transition: 0.2s;
+  transition: 0.2s;/* duur van vergroting*/
 }
 
 .verwerking:hover{
-  transform: scale(1.05);
-  transition:0,2s;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition:0,2s;/* duur van vergroting*/
 }
 
 .uitvoer:hover{
-  transform: scale(1.05);
-  transition:0,2s ;
+  transform: scale(1.05);/* Beetje vergroten */
+  transition:0,2s ;/* duur van vergroting*/
 }
