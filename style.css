@@ -91,8 +91,8 @@ li{
   transition: 0,2s;/* duur van vergroting*/
 }
 .vp{
-  position:absolute;
-  left: 45%; /*;/*afstand vanaf linkerkant*/
+  position:absolute;/*plaats op vaste plek*/
+  left: 45%;/*afstand vanaf linkerkant*/
   border: 2px solid white;/*witte rand*/     
   border-radius: 15px;/*hoeken afronden*/         
   width: 500px;/*breedte van box*/                
